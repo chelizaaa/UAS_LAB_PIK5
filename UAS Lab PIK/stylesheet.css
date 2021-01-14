@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+body{
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* ---------------------------------- */
+/*  ==========|| HEADER ||==========  */
+/* ---------------------------------- */
+
+.header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    height: 75px;
+    width: auto;
+    margin: 40px 95px 0px 95px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .active{
+    font-weight: 1000;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.header .head-logo, .h-logo{
+    display: inline;
+    float: left;
+    width: 75px;
+    height: 75px;
+    padding: 0px;
+}
+
+.header .h-home{
+    display: inline;
+    float: left;
+    margin: 26px 31px 0px 60px;
+    padding: 0px;
+    height: 49px;
+}
+
+.header .h-dest{
+    display: inline;
+    float: left;
+    margin: 26px 31px 0px 31px;
+    padding: 0px;
+    height: 49px;
+}
+
+.header .h-about{
+    display: inline;
+    float: left;
+    margin: 26px 0px 0px 31px;
+    padding: 0px;
+    height: 49px;
+}
+
+.header .search-box{
+    display: inline;
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.header .search-box table{
+    background: white;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 24px;
+    width: 300px;
+    height: 35px;
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.header .search-box input[type=text]{
+    font-family: 'Montserrat';
+    font-style: none;
+    font-size: 20px;
+    background: transparent;
+    color: black;
+    width: 214px;
+    height: 18px;
+    padding: 10px 0px 10px 22px;
+    border: none;
+}
+
+.header .search-box button{
+    font-size: 20px;
+    background: transparent;
+    color: black;
+    width: 54px;
+    height: 38px;
+    padding: 7px 22px 7px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ---------------------------------- */
+
+.main-content{
+    margin: 60px 95px 175px 95px;
+}
+
+/* ---------------------------------- */
+/*  ===|| MAIN CONTENT - HOME ||====  */
+/* ---------------------------------- */
+
+.main-content .mc-left{
+    width: 440px;
+    height: 360px;
+    background: rgba(174, 174, 174, 0.75);
+    border-radius: 20px;
+}
+
+.main-content .mc-left .title{
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    width: 396px;
+    height: 96px;
+    margin: 0px 22px 0px 22px;
+    padding: 14px 0px 10px 0px;
+}
+
+.main-content .mc-left .title p{
+    margin: 0px;
+}
+
+.main-content .mc-left .content{
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 22px 20px 22px;
+}
+
+.main-content .mc-left .content p{
+    margin: 0px 0px 10px 0px;
+}
+
+/* ---------------------------------- */
+/*  ===|| LOCATION BOX - HOME ||====  */
+/* ---------------------------------- */
+
+.loc-box{
+    margin: 0px 95px 40px;
+    height: max-content;
+    background: rgba(174, 174, 174, 0.75);
+    border-radius: 20px;
+}
+
+.loc-box .center-loc-box{
+    width: max-content;
+    height: max-content;
+    padding: 10px 10px;
+    margin: 0px auto;
+}
+
+.loc-box .center-loc-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.loc-box .center-loc-box .loc-active{
+    padding: 10px 15px;
+    margin: 0px 40px;
+    display: inline-block;
+    height: max-content;
+    background-color: #D0D0D0;
+    border-radius: 20px;
+}
+
+.loc-box .center-loc-box .loc{
+    padding: 10px 15px;
+    margin: 0px 40px;
+    display: inline-block;
+    height: max-content;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.loc-box .center-loc-box .loc:hover{
+    background-color: rgba(208, 208, 208, 0.75);
+}
+
+.loc-box .pict img{
+    width: 120px;
+    height: 120px;
+    border-radius: 75px;
+    margin: 0px 0px 16px 0px;
+}
+
+.loc-box .destination p, .city p{
+    margin: 0px;
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* ---------------------------------- */
+/*  ===|| MAIN CONTENT - ABOUT ||===  */
+/* ---------------------------------- */
+
+.main-content #main-about{
+    display: inline-block;
+    width: 600px;
+    height: 314px;
+    background: rgba(174, 174, 174, 0.75);
+    border-radius: 20px;
+    font-family: 'Montserrat';
+}
+
+.main-content #main-about p{
+    margin: 0px;
+    width: 500px;
+}
+
+.main-content #main-about #about-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0px 50px 20px 50px;
+    padding: 50px 0px 0px;
+}
+
+.main-content #main-about #about-content{
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px 50px 50px 50px;
+}
+
+.main-content #main-video{
+    display: inline;
+    float: right;
+}
+
+/* ---------------------------------- */
+/*  ==========|| FOOTER ||==========  */
+/* ---------------------------------- */
+
+.footer{
+    background: rgba(174, 174, 174, 0.75);
+    border-radius: 50px 50px 0px 0px;
+    padding-top: 8px;
+}
+
+.footer .f-container{
+    margin: 0px 95px;
+    padding: 59px 0px 19px 0px;
+    width: fit-content;
+    height: max-content;
+}
+
+.footer .f-container .fc-follow{
+    width: 23%;
+    height: 92px;
+    margin: 25px 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .f-container .fc-follow p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer .f-container .fc-follow a img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+/* ---------------------------------- */
+
+.footer .f-container .fc-logo{
+    display: inline-flex;
+    justify-content: center;
+    width: 53.6%;
+    height: 108px;
+    padding: 17px 0px;
+}
+
+.footer .f-container .fc-logo .fclogo-cont a img{
+    width: 75px;
+    margin: 0px 6px 7px 6px;
+}
+
+.footer .f-container .fc-logo .fclogo-cont p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+}
+
+/* ---------------------------------- */
+
+.footer .f-container .fc-contact{
+    width: 23%;
+    display: inline;
+    float: right;
+}
+
+.footer .f-container .fc-contact p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+}
+
+.footer .f-container .fc-contact img{
+    width: 50px;
+}
+
+.footer .f-container .fc-contact a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer .f-container .fc-contact .telnum,
+.footer .f-container .fc-contact .email{
+    margin-top: 10px;
+}
+
+/* ---------------------------------- */
+
+.footer .f-copyright .f-cr{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0px 130px;
+    padding: 36px 0px 30px;
+}
